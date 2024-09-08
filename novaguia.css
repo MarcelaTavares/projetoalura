@@ -1,0 +1,53 @@
+/* Importa a fonte Bebas Neue do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+title{
+    font-family:"Bebas Neue", sans-serif;/*Fonte que importamos*/
+    background-color:#f0f0f0 ; /*cor do fundo da página*/
+    display:flex;
+    flex-direction: column;/* Alinha os itens em colunas */
+    align-items: center;/* Centraliza os itens  */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh;/*  Preenche a altura total da viewport */
+    /*viewport é a área visível da página na tela do usuário, ou seja, a parte da página que está sendo exibida no momento.*/
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    
+}
+
+h1{
+    font-family:"Bebas Neue", sans-serif;/*Fonte que importamos*/
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin-top: 170px; /* Ajusta o espaçamento superior */
+}
+
+p{
+    font-family:"Bebas Neue", sans-serif;/*Fonte que importamos*/
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    display:flex;
+    flex-direction: column;/* Alinha os itens em colunas */
+    align-items: center;/* Centraliza os itens  */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    
+}
+
+a{
+    
+    font-family:"Bebas Neue", sans-serif;/*Fonte que importamos*/
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+    display:flex;
+    flex-direction: column;/* Alinha os itens em colunas */
+    align-items: center;/* Centraliza os itens  */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    
+}

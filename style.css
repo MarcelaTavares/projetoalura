@@ -1,0 +1,103 @@
+/* Importa a fonte Bebas Neue do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estiliza o corpo da página */
+body{
+    font-family:"Bebas Neue", sans-serif;/*Fonte que importamos*/
+    background-color:#f0f0f0 ; /*cor do fundo da página*/
+    background-image:url('bg1.jpg');
+    background-repeat:no-repeat;
+    background-size:1700px 1290px;/*Define um tamanho específico em pixels.;*/
+    display:flex;
+    flex-direction: column;/* Alinha os itens em colunas */
+    align-items: center;/* Centraliza os itens  */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh;/*  Preenche a altura total da viewport */
+    /*viewport é a área visível da página na tela do usuário, ou seja, a parte da página que está sendo exibida no momento.*/
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+
+}
+/* Define a cor dos títulos (h2) dentro da seção como um branco semi-transparente */
+section h2{ color:rgba(255, 255, 255, 0.821);}
+
+section p{
+  color:rgb(255, 255, 255, 0.821);  /* Define a cor dos parágrafos (p) dentro da seção como um branco semi-transparente */
+  font-size:2.0rem;  /* Define o tamanho da fonte dos parágrafos como 2rem (equivalente a 32px, dependendo do tamanho da fonte base) */
+}
+/* Estiliza nosso titulo dentro do "header" que é "Review Energetico*/
+header p
+{  
+    font-size: 3.0rem; /* Tamanho da fonte */
+    color:rgb(255, 255, 255, 0.821); /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    font-family:"Bebas Neue", sans-serif;;
+    margin-top: 5%; /*distância entre a margem superior de um elemento e o elemento que vem imediatamente acima dele*/
+    
+}
+
+/* Estiliza as seções da página */
+section {
+  display: flex; /* Usa Flexbox para layout */
+  flex-direction: column; /* Alinha os itens na vertical */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+/* Estiliza os inputs dentro das seções */
+section input {
+  width: 30rem; /* Largura dos inputs */
+  border: none; /* Remove a borda padrão */
+  padding: 1rem; /* Espaçamento interno */
+  border-radius: 1.5rem; /* Borda arredondada */
+  margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+  color: #000000; /* Cor do texto */
+  font-size: 1rem; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+/* Estiliza os botões dentro das seções */
+section button {
+  padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+  border: none; /* Remove a borda padrão */
+  border-radius: 1.5rem; /* Borda arredondada */
+  background-color:#4CAF50; /* Cor de fundo do botão */
+  color: #F5F7F8; /* Cor do texto do botão */
+  font-size: 1rem; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+ .subtitulo /*nossa classe "Veja algumas marcas..."*/ 
+ {
+  
+   font-family:"Bebas Neue", sans-serif;
+   font-size: 1.2rem;
+   text-align: center; /*alinhando ele no centro*/
+   margin: 2rem; /* Espaçamento abaixo de cada seção */
+   margin-top:auto;
+   
+ }
+ input {
+  font-family: "Bebas Neue", sans-serif; /* Define a fonte do elemento input como "Bebas Neue". Caso a fonte não esteja instalada, uma fonte sans-serif será usada como alternativa. */
+  font-size: 1.2rem; /* Define o tamanho da fonte do input como 1.2rem (equivalente a 19.2px, considerando um tamanho de fonte base de 16px). */
+  text-align: center; /* Alinha o texto dentro do input no centro horizontalmente. */
+  margin: 2rem; /* Aplica uma margem de 2rem (32px) em todos os lados do input (superior, direita, inferior e esquerda). */
+  margin-top: auto; /* Define a margem superior do input como "auto". Isso significa que o input será empurrado para baixo o máximo possível dentro de seu container pai, mantendo a margem inferior definida. */
+}
+
+
+  /* Rodapé */
+  footer 
+  {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    font-family:"Montserrat", sans-serif;
+    color: #000000;
+    text-align:center;
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    
+
+  }
+ 
