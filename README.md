@@ -53,4 +53,4 @@ review-energeticos/
 * **Hashtags:** Usei hashtags relevantes para facilitar a busca do projeto.
 
 
- 
+ Esse projeto foi realizado com auxilio da Alura + Google Gemini
